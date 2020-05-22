@@ -2,6 +2,7 @@ body{
   background-color: #000000;
   color: #ffffff;
   font-family: Sofia Pro, 'sans-serif';
+
 }
 
 
@@ -14,7 +15,7 @@ body{
 }
 
 .parent{
-  padding: 60px 0px;
+  padding: 0px 0px 60px;
   width: 88%;
   max-width: 1600px;
   margin: auto;
@@ -22,6 +23,15 @@ body{
 
 .topbar{
   /*text-align: center;*/
+  padding-top: 60px;
+  position: relative;
+}
+
+.hdmi{
+position: absolute;
+right: 10px;
+top: -80px;
+height: 480px;
 }
 
 .sigil, .avatar{
@@ -38,6 +48,7 @@ body{
   margin-top: 8px;
   font-weight: bolder;
   font-size: 90px;
+  margin-left: -4px;
   display: block;
 }
 
@@ -78,10 +89,13 @@ body{
   min-width: 200px;
 }
 
+
+
 .sectionbody{
   flex-grow: 1;
   width: 90%;
-  margin-left: 80px;
+  margin-left: 70px;
+  margin-right: 10px;
 }
 
 .rolelabel{
