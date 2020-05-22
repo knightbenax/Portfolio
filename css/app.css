@@ -1,0 +1,148 @@
+body{
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Sofia Pro, 'sans-serif';
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.parent{
+  padding: 60px 0px;
+  width: 88%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.topbar{
+  /*text-align: center;*/
+}
+
+.sigil, .avatar{
+  max-height: 150px;
+  margin-right: 10px;
+}
+
+.avatar{
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.nametag{
+  margin-top: 8px;
+  font-weight: bolder;
+  font-size: 90px;
+  display: block;
+}
+
+.subtag{
+  display: block;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.ephod{
+  color: #0d9244;
+  text-decoration: none;
+}
+
+.siriuslabs{
+  color: #FF9A14;
+  text-decoration: none;
+}
+
+.worklink{
+  color: #3681eb;
+}
+
+
+.work-history, .projecthistory{
+  margin-top: 120px;
+  padding-top: 30px;
+  display: flex;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+
+.sectiontag{
+  font-weight: bolder;
+  font-size: 80px;
+  width: 30%;
+  min-width: 200px;
+}
+
+.sectionbody{
+  flex-grow: 1;
+  width: 90%;
+  margin-left: 80px;
+}
+
+.rolelabel{
+  font-size: 22px;
+  font-weight: 100;
+  font-style: italic;
+  display: block;
+  line-height: 1.5;
+}
+
+.datelabel{
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 100;
+  display: block;
+}
+
+.companylabel{
+  font-size: 22px;
+  display: block;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.end{
+  height: 2px;
+  background-color: #ffffff;
+  margin: 70px 0px;
+  width: 20px;
+}
+
+.workdesc{
+  display: block;
+  margin-top: 40px;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+
+.footer-icons{
+  display: flex;
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.spacer{
+  flex-grow: 1;
+}
+
+
+.footer-icons a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.description{
+  margin-top: 140px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 32px;
+  width: 80%
+}
