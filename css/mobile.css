@@ -1,0 +1,87 @@
+@media (max-width: 767px) {
+
+  .work-history, .projecthistory, .contacthistory{
+    flex-direction: column;
+        margin-top: 70px;
+            padding-top: 50px;
+  }
+
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+  .sectionbody{
+    margin: 0px;
+    width: 100%;
+  }
+
+
+.parent{
+  width: 90%;
+}
+
+.topbar{
+  text-align: center;
+}
+
+.nametag{
+  font-size: 70px;
+}
+
+.description{
+  width: 100%;
+  margin-top: 60px;
+      font-size: 24px;
+}
+
+.menu{
+  /*position: inherit;*/
+  padding: 0px 0px 60px;
+  text-align: center;
+display: none;
+}
+
+.menu a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.hdmi{
+  display: none;
+}
+
+.subtag{
+  font-size: 18px;
+}
+
+.full-content{
+
+      width: calc(100% + 30px);
+}
+
+.full-content img{
+      width: calc(50% - 30px);
+}
+
+.footer-icons{
+  flex-direction: column;
+
+}
+
+.end{
+  margin: 40px 0px;
+}
+
+.sectiontag{
+  margin-bottom: 10px;
+}
+
+.footer-icons a{
+  margin-right: 0px;
+  margin-bottom: 24px;
+}
+
+}
