@@ -59,11 +59,14 @@ display: none;
 
 .full-content{
 
-      width: calc(100% + 30px);
+      width: calc(100% + 20px);
+          margin-left: -10px;
 }
 
 .full-content img{
-      width: calc(50% - 30px);
+          width: calc(50% - 10px);
+          margin: 0px 5px 10px;
+              border-radius: 5px;
 }
 
 .footer-icons{
