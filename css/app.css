@@ -1,5 +1,5 @@
 body{
-  background-color: #000000;
+  background-color: #19171d;
   color: #ffffff;
   font-family: Sofia Pro, 'sans-serif';
 
@@ -15,15 +15,48 @@ body{
 }
 
 .parent{
-  padding: 0px 0px 60px;
+  padding: 0px 0px 40px;
   width: 88%;
   max-width: 1600px;
   margin: auto;
 }
 
+.nav-colored{
+  background-color: #000000;
+}
+
+.nav-transparent{
+  background-color: transparent;
+}
+
+.menu.scrolled {
+  background-color: #19171d!important;
+  transition: background-color 200ms linear;
+    padding: 24px 220px;
+}
+
+.menu{
+  transition:background-color 200ms linear;
+  background-color: transparent;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  padding: 60px 220px;
+  text-align: right;
+}
+
+.menu a{
+  text-decoration: none;
+  font-weight: bolder;
+  margin-left: 30px;
+  color: #0F84AE;
+  font-size: 18px;
+}
+
 .topbar{
   /*text-align: center;*/
-  padding-top: 60px;
+  padding-top: 40px;
   position: relative;
 }
 
@@ -31,7 +64,7 @@ body{
 position: absolute;
 right: 10px;
 top: -80px;
-height: 480px;
+height: 380px;
 }
 
 .sigil, .avatar{
@@ -52,6 +85,31 @@ height: 480px;
   display: block;
 }
 
+.full-content{
+  width: calc(100% + 15px);
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0px;
+    display: flex;
+flex-wrap: wrap;
+margin-left: -15px;
+margin-bottom: -30px
+}
+
+
+
+.full-content img {
+  width: calc(33.33333% - 30px);
+  border-radius: 6px;
+margin: 0px 15px 30px;
+    -webkit-box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.3);
+}
+
+
 .subtag{
   display: block;
   font-weight: 100;
@@ -71,10 +129,15 @@ height: 480px;
 
 .worklink{
   color: #3681eb;
+  white-space: pre-wrap; /* CSS3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 
-.work-history, .projecthistory{
+.work-history, .projecthistory, .contacthistory{
   margin-top: 120px;
   padding-top: 30px;
   display: flex;
@@ -87,6 +150,7 @@ height: 480px;
   font-size: 80px;
   width: 30%;
   min-width: 200px;
+  color: #0F84AE;
 }
 
 
@@ -99,7 +163,7 @@ height: 480px;
 }
 
 .rolelabel{
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 100;
   font-style: italic;
   display: block;
@@ -108,7 +172,7 @@ height: 480px;
 
 .datelabel{
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.7;
   font-weight: 100;
   display: block;
 }
@@ -124,8 +188,13 @@ height: 480px;
   height: 2px;
   background-color: #ffffff;
   margin: 70px 0px;
-  width: 20px;
+  width: 10px;
 }
+
+.contacthistory .workdesc{
+  margin-top: 12px;
+}
+
 
 .workdesc{
   display: block;
