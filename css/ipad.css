@@ -1,0 +1,50 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.sectiontag{
+  font-size: 60px;
+}
+
+
+.full-content{
+
+      width: calc(100% + 20px);
+          margin-left: -10px;
+}
+
+.full-content img{
+  width: calc(50% - 20px);
+  margin: 0px 10px 20px;
+  border-radius: 5px;
+}
+
+.description{
+  width: 90%;
+}
+
+.sectionbody{
+  flex-grow: 1;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+
+.work-history, .projecthistory, .contacthistory{
+  display: block;
+  margin-top: 80px;
+    padding-top: 50px;
+}
+
+.menu{
+  display: none;
+}
+
+.spacer{
+  flex-grow: inherit;
+}
+
+
+.reserved{
+  display: none;
+}
+
+}
