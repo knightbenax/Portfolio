@@ -158,9 +158,9 @@ margin: 0px 15px 30px;
 
 .sectionbody{
   flex-grow: 1;
-  width: 90%;
-  margin-left: 70px;
-  margin-right: 10px;
+  width: calc(90% - 120px);
+margin-left: 70px;
+/*padding-right: 50px;*/
 }
 
 .rolelabel{
