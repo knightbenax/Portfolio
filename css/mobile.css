@@ -20,7 +20,7 @@
 
   .portfolio_details{
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
 
@@ -68,12 +68,21 @@
 }
 
 
+.name_banner{
+  margin-top: 0px;
+}
+
+
 .hdmi{
   display: none;
 }
 
 .subtag{
   font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0px 30px;
+  text-shadow: 0px 0px 4px rgb(0 0 0);
 }
 
 .full-content{
