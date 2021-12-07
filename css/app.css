@@ -28,6 +28,7 @@ body{
 .name_banner{
   margin-top: -160px;
   text-align: center;
+  padding: 0px 10px;
 }
 
 .parent{
@@ -63,7 +64,6 @@ body{
   left: 0px;
   right: 0px;
   padding: 18px 0px;
-  width: 100%;
   z-index: 5;
 }
 
