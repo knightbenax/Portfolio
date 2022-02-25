@@ -97,6 +97,10 @@
               border-radius: 5px;
 }
 
+.full-content img.full-width{
+  width: calc(100% - 10px);
+}
+
 .footer-icons{
   flex-direction: column;
 
