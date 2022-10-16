@@ -1,3 +1,3 @@
-# My Portfolio - knightbenax.dev
+# Portfolio Website - knightbenax.dev
 
 ![Screenshot](images/capture.png?raw=true)
