@@ -60,10 +60,7 @@ padding-top: 80px;
     max-width: 4000px;
   }
 
-.name_banner{
-  text-align: center;
-  padding: 0px;
-}
+
 
 .grid-container {
             display: grid;
@@ -197,21 +194,32 @@ height: 300px;
   box-shadow: 0px 10px 20px 8px rgba(0,0,0,0.9);
 }
 
+.name_banner{
+  text-align: center;
+  margin-top: 60px;
+}
+
 .nametag{
   font-weight: bolder;
   font-size: 160px;
   font-family: 'Newake';
   text-transform: uppercase;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
   display: block;
 }
 
 .subtag{
   display: block;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.subtag_parent{
+  justify-content: space-between;
+  display: flex;
 }
 
 .portfolio_details{
